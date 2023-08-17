@@ -1,0 +1,39 @@
+.toolbar {
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar .logo {
+  display: inline-block;
+  width: 60px;
+}
+
+.toolbar .label {
+  display: inline-block;
+  width: 240px;
+}
+
+.toolbar .checkout {
+  position:absolute;
+  right: 10px;
+}
+
+/* Fancy Button */
+.fancy-button {
+  background-color: white;
+  color: #1976d2;
+}
+
+.fancy-button i.material-icons {
+  color: #1976d2;
+  padding-right: 4px;
+}
